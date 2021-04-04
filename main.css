@@ -11,10 +11,11 @@ html{
     display: flex;
     align-items: center;
     justify-content: right;
-    position: sticky;
+    position: fixed;
     top:0;
     cursor: pointer;
     background-color: black;
+    width: 100%;
 }
 
 .nav-list{
@@ -197,11 +198,27 @@ iframe{
         columns:1;
     }
     .image img{
+        display: block;
+        width: auto;
+        height: 40vh;
         align-items: center;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
         padding-top: 15px;
     }
     #showcase{
         height: 50vh;
+    }
+    .navbar{
+        height: 20vh;
+    }
+    .para h2{
+        font-size: 3vh;
+    }
+    .para p{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 2vh;
     }
 }
