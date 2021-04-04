@@ -212,10 +212,10 @@ iframe{
         height: 50vh;
     }
      .navbar{
-        height: 3em;
+        height: 20vh;
         width: 100%;
     }
     .navbar li a{
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
 }
