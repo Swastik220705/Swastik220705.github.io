@@ -211,7 +211,11 @@ iframe{
     #showcase{
         height: 50vh;
     }
-    .navbar{
-        height: 2em;
+     .navbar{
+        height: 3em;
+        width: 100%;
+    }
+    .navbar li a{
+        font-size: 1.1em;
     }
 }
