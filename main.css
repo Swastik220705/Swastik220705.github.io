@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    background-color: black;
+}
+
+.nav-list{
+   
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:  sans-serif;
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+}
+#showcase{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(untitled.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+    color: white;
+  }
+  
+  #showcase p{
+    font-size:20px;
+    color: white;
+  }
+/*------About--------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.Intro
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+/*-------Category------------*/
+#categories
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(untitled.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef! important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#categories h1
+{
+    text-align: center;
+    color: #efefef ! important;
+    padding-bottom: 10px; 
+}
+#categories h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+}
+.heading h1{
+    font-size: 40px;
+}
+.container{
+    padding: 15px;
+}
+.row{
+    display: flex;
+}
+.para h2{
+    font-size: 25px;
+}
+.about-content p{
+    font-size: 18px;
+}
+.para p{
+
+    font-size: 18px;
+}
+  .category img
+  {
+      height: 50px;
+      width: 50px;
+  }
+  .image img{
+      padding-left: 15px;
+  }
+#handloom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#carpet{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#blanket{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#thanka{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#woodcarving{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#mask{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+iframe{
+   padding-bottom: 50px;
+}
+#videos h1{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #555;
+}
+#videos .video{
+    columns: 2;
+}
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+  }
+@media (max-width: 1080px){
+    .row{
+        display: block;
+    }
+    #videos .video{
+        columns:1;
+    }
+    .image img{
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    #showcase{
+        height: 50vh;
+    }
+}

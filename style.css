@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+#showcase{
+  background-image: url(1.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  border:black 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  transition: 0.5s;
+}
+
+#showcase .button:hover{
+  background:black;
+  color:#fff;
+}
+/* Section A */
+
+#intro {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+
+#handicraft {
+  padding: 2em 1em 1em;
+  background-image: url(1.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+}
+
+#handicraft ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#handicraft li {
+  border-radius: 10px;
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+  transition: 0.5s;
+}
+#handicraft li:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.card-content {
+  padding: 1.5em;
+}
+.card-content p{
+  text-align: justify;
+}
+/* Section C */
+
+#conclusion {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+/* Section D / Boxes */
+
+#about .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#about .box:first-child {
+  background: #2690d4;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+  #intro .content-text p {
+    padding-top: 0;
+  }
+
+  #handicraft{
+    background-attachment: fixed;
+    background-image: 1.jpg;
+  }
+  .content-wrap,
+  #handicraft ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #handicraft ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #handicraft li {
+    width: 31%;
+  }
+}
+#top {
+
+  background-color: white;
+  padding-bottom: 25px;
+}
+#top .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  animation: trans 1s;
+  transition: 0.5s;
+}
+
+#top .button:hover{
+  background:#926239;
+  color:#fff;
+}
+#about p{
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+#about .button{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  border: black 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  animation: trans 1s;
+  transition: 0.5s;
+}
+
+#about .button:hover{
+  background:black;
+  color:#fff;
+}
+#handicraft .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+  animation: trans 1s;
+  transition: 0.5s;
+
+}
+
+#handicraft .button:hover{
+  background:#926239;
+  color:#fff;
+}
