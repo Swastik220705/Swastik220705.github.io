@@ -11,19 +11,21 @@
         <div class="title">
           <h1>Contact</h1>
         </div>
+        <form action="mailto:swastik.625@kvsrodelhi.in" method="post" enctype="text/plain">
         <div class="contact-form">
           <div class="input-fields">
-            <input type="text" class="input" placeholder="Name">
-            <input type="text" class="input" placeholder="Email Address">
-            <input type="text" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Subject">
-            <a href="index.html" class="btn">Home</a>
+            <input type="text" class="input" placeholder="Name" name="Name">
+            <input type="text" class="input" placeholder="Email Address" name="Email">
+            <input type="text" class="input" placeholder="Phone" name="Phone">
+            <input type="text" class="input" placeholder="Subject" name="Subject">
+            <input type="reset" value="Reset" class="btn">
           </div>
           <div class="msg">
-            <textarea placeholder="Message"></textarea>
-            <div class="btn"><a href="index.html"> send </a></div>
+            <textarea placeholder="Message" name="Message"></textarea>
+            <input type="submit" value="Send" class="btn">
           </div>
         </div>
+      </form>
       </div>
 </body>
 </html>
